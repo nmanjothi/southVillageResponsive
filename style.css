@@ -1,0 +1,160 @@
+html {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.green {
+  background-color: #008080;
+}
+
+.pink {
+  background-color: #ffa07a;
+}
+
+.brown {
+  background-color: brown;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 5fr;
+  width: 100%;
+  height: 2rem;
+  padding-top: 1rem;
+}
+
+.nav img {
+  height: auto;
+  width: 10rem;
+}
+
+.navcell {
+  margin-left: 3rem;
+}
+
+.nav a {
+  color: #ffa07a;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.nav a:hover {
+  text-shadow: #ffa07a;
+}
+
+.body {
+  display: inline-block;
+}
+
+/* Banner section */
+
+.banner {
+  text-align: center;
+  padding-top: 6rem;
+}
+
+.banner h1 {
+  color: lightsalmon;
+  background-color: brown;
+  padding: 1rem 0rem;
+}
+
+/* Mission section */
+
+.mission {
+  margin-top: 15rem;
+  margin-left: 1.5rem;
+}
+.mission h2 {
+  color: lime;
+}
+
+.mission p {
+  color: white;
+}
+
+.mission a {
+  color: darkblue;
+}
+
+.mission a:hover {
+  color: blue;
+}
+
+/* Picture set */
+
+.picgrid {
+  margin-left: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(23rem, 1fr));
+  max-width: 100%;
+  gap: 2rem;
+  height: auto;
+  justify-content: left;
+  background-position: center;
+}
+
+.pic {
+  margin: 3rem 0.5rem;
+  height: 15rem;
+  width: auto;
+}
+
+@media only screen and (max-width: 2000px) {
+  .pic img {
+    height: 15rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .pic img {
+    height: 18rem;
+  }
+}
+
+.testimonial {
+  width: 100%;
+  height: 100%;
+}
+
+.testimonial h1 {
+  color: yellow;
+  padding-top: 2rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-left: 1.5rem;
+}
+
+.testimonial p {
+  color: yellow;
+  padding-bottom: 4rem;
+  font-weight: 100;
+  margin-left: 1.5rem;
+}
+
+.winddown {
+  display: flexbox;
+}
+.winddown h2 {
+  color: yellow;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.winddown img {
+  height: 100%;
+  width: 45%;
+  padding: 1rem 25%;
+}
+
+footer {
+padding: 1rem;
+    font-size: 0.75rem;
+  background-color: teal;
+  color: yellow;
+}
+
+footer p {
+    padding: 0.5rem 0 0.5rem 0.5rem;  
+}
